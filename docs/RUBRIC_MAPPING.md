@@ -1,9 +1,9 @@
-# Rubric Mapping – Smart Attendance Anomaly Detector
-## How This Project Satisfies the 30-Mark Evaluation Rubric
+# Project Evaluation Mapping – Smart Attendance Anomaly Detector
+## Architectural and Feature Implementation Mapping
 
 ---
 
-## 1. Problem Formulation and Originality – 4 Marks
+## 1. Problem Formulation and Originality
 
 **What We Did:**
 - Formulated a real-world problem: detecting suspicious attendance patterns in student records that conventional systems miss.
@@ -18,7 +18,7 @@
 
 ---
 
-## 2. AI Concepts / Algorithm Implementation – 6 Marks
+## 2. AI Concepts / Algorithm Implementation
 
 **What We Did:**
 - Fully implemented **Isolation Forest** using sklearn, with complete documentation of algorithm mechanics (path length, score direction, contamination).
@@ -35,7 +35,7 @@
 
 ---
 
-## 3. Comparison of Algorithms – 5 Marks
+## 3. Comparison of Algorithms
 
 **What We Did:**
 - Evaluated all three models on the same held-out test set using identical features.
@@ -55,7 +55,7 @@
 
 ---
 
-## 4. Dataset / Environment and Experimentation – 3 Marks
+## 4. Dataset / Environment and Experimentation
 
 **What We Did:**
 - Created a synthetic dataset with 10,000 records, ~200 students, 8% anomaly rate.
@@ -76,7 +76,7 @@
 
 ---
 
-## 5. Evaluation and Interpretation – 4 Marks
+## 5. Evaluation and Interpretation
 
 **What We Did:**
 - Implemented 6 evaluation metrics: Accuracy, Precision, Recall, F1, ROC-AUC, PR-AUC.
@@ -95,7 +95,7 @@
 
 ---
 
-## 6. Student's Own Improvement / Innovation – 3 Marks
+## 6. Student's Own Improvement / Innovation
 
 **What We Did (Student-Designed Improvement):**
 - Designed a **Hybrid Attendance Anomaly Score** that combines IF and LOF scores.
@@ -123,7 +123,7 @@ HybridScore = α × IF_norm + (1 - α) × LOF_norm
 
 ---
 
-## 7. Working Application / Demo – 3 Marks
+## 7. Working Application / Interactive Demo
 
 **What We Did:**
 - Built a **multi-page Streamlit web application** (`app.py`) with 6 pages:
@@ -149,7 +149,7 @@ streamlit run app.py
 
 ---
 
-## 8. Viva and Individual Understanding – 2 Marks
+## 8. Viva and Technical Understanding
 
 **What We Did:**
 - Created `docs/VIVA.md` with 30 questions and concise answers.
@@ -165,14 +165,13 @@ streamlit run app.py
 
 ## Summary Table
 
-| Criterion | Max Marks | Implementation |
-|-----------|-----------|----------------|
-| Problem formulation & originality | 4 | Hybrid approach + 6 anomaly types |
-| AI concepts / algorithm implementation | 6 | IF + LOF + Hybrid fully implemented |
-| Comparison of algorithms | 5 | 6 metrics + confusion matrices + ROC/PR curves |
-| Dataset / environment / experimentation | 3 | 10K synthetic records + HP grid search |
-| Evaluation and interpretation | 4 | Full metrics suite + rule-based explanations |
-| Student's own improvement | 3 | Hybrid model with alpha tuning |
-| Working application / demo | 3 | Streamlit app with 6 pages |
-| Viva and individual understanding | 2 | docs/VIVA.md with 30 Q&A |
-| **Total** | **30** | |
+| Evaluation Dimension | Key Deliverables & Implementation |
+|----------------------|-----------------------------------|
+| Problem Formulation & Originality | Hybrid approach + 6 anomaly types |
+| AI Concepts & Algorithm Implementation | IF + LOF + Hybrid fully implemented |
+| Comparison of Algorithms | 6 metrics + confusion matrices + ROC/PR curves |
+| Dataset, Environment & Experimentation | 10K synthetic records + HP grid search |
+| Evaluation and Interpretation | Full metrics suite + rule-based explanations |
+| Student-Designed Innovation | Hybrid model with alpha tuning |
+| Working Application & Demo | Streamlit app with 6 pages |
+| Viva & Technical Understanding | docs/VIVA.md with 30 comprehensive Q&A |

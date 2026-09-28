@@ -340,7 +340,7 @@ Smart_Attendance_Anomaly_Detector/
 │
 └── docs/
     ├── VIVA.md               # 30 Q&A for viva preparation
-    └── RUBRIC_MAPPING.md     # Marks rubric mapping
+    └── RUBRIC_MAPPING.md     # Project evaluation mapping
 ```
 
 ---

@@ -264,7 +264,7 @@ PAGE = st.sidebar.radio(
 
 st.sidebar.markdown("---")
 st.sidebar.markdown("**Smart Attendance Anomaly Detector**")
-st.sidebar.markdown("Academic AI Project | 30 Marks")
+st.sidebar.markdown("AI-Powered Anomaly Detection")
 st.sidebar.markdown("Algorithms: IF · LOF · Hybrid")
 
 

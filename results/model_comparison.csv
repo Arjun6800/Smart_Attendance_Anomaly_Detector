@@ -1,0 +1,4 @@
+model,precision,recall,f1,roc_auc,pr_auc,accuracy
+Isolation Forest,0.78,0.4875,0.6,0.8345,0.5942,0.948
+LOF,0.1319,0.1938,0.157,0.5181,0.1775,0.8335
+Hybrid (Student Innovation),0.7766,0.4562,0.5748,0.8331,0.5817,0.946

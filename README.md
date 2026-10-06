@@ -337,10 +337,7 @@ Smart_Attendance_Anomaly_Detector/
 │   ├── hybrid_model.pkl
 │   ├── scaler.pkl
 │   └── train_stats.pkl
-│
-└── docs/
-    ├── VIVA.md               # 30 Q&A for viva preparation
-    └── RUBRIC_MAPPING.md     # Project evaluation mapping
+
 ```
 
 ---
@@ -368,13 +365,7 @@ Smart_Attendance_Anomaly_Detector/
 
 ---
 
-## 20. Viva Questions
-
-See [`docs/VIVA.md`](docs/VIVA.md) for 30 questions and answers.
-
----
-
-## 21. Ethical Considerations
+## 20. Ethical Considerations
 
 - All data in this project is **synthetic**. No real student data was used.
 - Anomaly flags **do not prove misconduct**. Human review is mandatory.
